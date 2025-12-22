@@ -60,7 +60,7 @@ src/main/java/com/example/usermanagement
 │   └── ResourceNotFoundException.java
 └── UserManagementApplication.java
 
-##API Endpoints:
+## API Endpoints:
 | HTTP Method | Endpoint    | Description       |
 | ----------- | ----------- | ----------------- |
 | POST        | /users      | Create a new user |
@@ -75,17 +75,17 @@ src/main/java/com/example/usermanagement
   "email": "john@example.com"
 }
 
-⚠ Exception Handling:
+## ⚠ Exception Handling:
 Custom ResourceNotFoundException for invalid user IDs.
 Global exception handling using @ControllerAdvice.
 Proper HTTP status codes (400, 404, 500).
 
-🗄 Database Configuration:
+## 🗄 Database Configuration:
 MySQL database.
 Hibernate auto DDL update enabled.
 Database tables created automatically on application startup.
 
-▶ How to Run the Project
+## ▶ How to Run the Project
 Prerequisites
 Java 8+
 MySQL
@@ -108,18 +108,18 @@ mvn spring-boot:run
 5: Application Runs on:
 http://localhost:8080
 
-🧪 Testing
+## 🧪 Testing
 APIs tested using Postman
 JSON request/response format
 
-🚀 Future Enhancements
+## 🚀 Future Enhancements
 JWT Authentication & Authorization
 Role-based access control
 Pagination and sorting
 Docker support
 Swagger API documentation
 
-👤 Author
+## 👤 Author
 Bhupendra Upadhyay
 Java Backend Developer
 📧 Email: bhupendraupadhyay97@gmail.com
