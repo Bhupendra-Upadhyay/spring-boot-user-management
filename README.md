@@ -60,7 +60,7 @@ src/main/java/com/example/usermanagement
 │   └── ResourceNotFoundException.java
 └── UserManagementApplication.java
 
-API Endpoints:
+##API Endpoints:
 | HTTP Method | Endpoint    | Description       |
 | ----------- | ----------- | ----------------- |
 | POST        | /users      | Create a new user |
